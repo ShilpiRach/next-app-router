@@ -4,5 +4,5 @@ components:
     path: /
     run:
       port: 3000
-      start: node server.js
+      start: HOSTNAME=0.0.0.0 node server.js
       healthCheckPath: /api/health
