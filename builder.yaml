@@ -1,8 +1,0 @@
-components:
-- name: app
-  role: web
-  platform: nodejs
-  run:
-    port: 3000
-    start: HOSTNAME=0.0.0.0 node server.js
-  path: /
